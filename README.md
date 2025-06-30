@@ -12,3 +12,10 @@ Proyek ini menggunakan algoritma K-Means Clustering untuk mengelompokkan pola ti
 
 2. Jalankan kode:
     python src/clustering_tidur.py
+
+   
+## Dataset
+Dataset buatan berisi 500 data mahasiswa dengan atribut:
+- Jam Tidur
+- Durasi Tidur
+- Kualitas Tidur
