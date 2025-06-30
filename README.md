@@ -1,10 +1,14 @@
 # Clustering Pola Tidur Mahasiswa
 
-K-Means digunakan untuk mengelompokkan mahasiswa berdasarkan:
-- Jam Tidur
-- Durasi Tidur
-- Kualitas Tidur
+Proyek ini menggunakan algoritma K-Means Clustering untuk mengelompokkan pola tidur mahasiswa ke dalam 3 kategori:
 
+- 🟣 Tidur Sehat
+- 🟡 Tidur Malam (tidur telat tapi durasi cukup)
+- 🔵 Kurang Tidur (begadang dan durasi pendek)
+  
 ## Cara Jalanin
-pip install -r requirements.txt
-python src/kmeans_tidur.py
+1. Install library:
+    pip install -r requirements.txt
+
+2. Jalankan kode:
+    python src/clustering_tidur.py
